@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.container{
+  width: 90%;
+  margin: auto;
+}
+nav{
+  background: #e1e0e5;
+}
+.splide .splide__pagination {
+  display: none;
+}
+/***products ******/
+.shop .pic{
+  position: relative;
+}
+.shop .pic .info{
+  position: absolute;
+  bottom: -300px;
+  left: 0px;
+  transition: all 0.4s ;
+  width: 100%;
+  background: rgba(221, 221, 221, 0.404);
+}
+.shop .pic .info .price{
+  color: rgb(34, 32, 32);
+}
+.shop .pic:hover .info{
+  bottom: 0px;
+}
+/****product-details***/
+.product-details select{
+  outline-style: auto;
+  outline-color: rgb(185, 174, 174);
+}
+/******blog*********/
+.blog .blog-header{
+  background-image: url(../src/assets/blog/blogheader.jfif);
+  background-position: center;
+}
+/*******about*******/
+.about .about-header , .contact .contact-header{
+  background-image: url(../src/assets/about/aboutheader.jfif);
+  background-position: center;
+}
+/*******nav , responsive nav*****/
+nav .list .nav-links {
+  display: flex;
+  width: 100%;
+}
+.mobile-menu-icon{
+  display: none;
+}
+.extra-web{
+  display: block;
+}
+/*********media query****/
+@media screen and (max-width:1024px) {
+  nav .logo{
+    margin: 0px auto !important;
+  }
+  nav .list .nav-links {
+    display: none ;
+  }
+  nav .list .nav-links-mobile {
+    display: block;
+    width: 100%;
+  }
+  nav .list .nav-links-mobile li{
+    padding: 5px 1px ;
+  }
+  nav .list .nav-links-mobile li:hover{
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px #ddd;
+    color: white;
+    border-radius: 3px;
+  }
+  .mobile-menu-icon{
+    display: block;
+  }
+  .extra-web{
+    display: none;
+  }
+}
+
+
+

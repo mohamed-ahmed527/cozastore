@@ -1,0 +1,49 @@
+{
+  "cart": [
+    {
+      "title": "Herschel supply",
+      "price": "$99",
+      "pic": "https://preview.colorlib.com/theme/cozastore/images/xproduct-02.jpg.pagespeed.ic.6WHvZRJRuO.webp",
+      "qty": 5,
+      "size": "Mediam",
+      "color": "White",
+      "id": 29
+    },
+    {
+      "title": "Pretty Little Thing",
+      "price": "$40",
+      "pic": "https://preview.colorlib.com/theme/cozastore/images/xproduct-14.jpg.pagespeed.ic.6WHvZRJRuO.webp",
+      "qty": 2,
+      "size": "Small",
+      "color": "Red",
+      "id": 30
+    },
+    {
+      "title": "Vintage Inspired Classic",
+      "price": "$104",
+      "pic": "https://preview.colorlib.com/theme/cozastore/images/xproduct-06.jpg.pagespeed.ic.6WHvZRJRuO.webp",
+      "qty": 2,
+      "size": "Small",
+      "color": "Blue",
+      "id": 31
+    },
+    {
+      "title": "Only Check Trouser",
+      "price": "$48",
+      "pic": "https://preview.colorlib.com/theme/cozastore/images/xproduct-03.jpg.pagespeed.ic.6WHvZRJRuO.webp",
+      "qty": 1,
+      "size": "Small",
+      "color": "Red",
+      "id": 32
+    },
+    {
+      "title": "Herschel supply",
+      "price": "$75",
+      "pic": "https://preview.colorlib.com/theme/cozastore/images/xproduct-12.jpg.pagespeed.ic.6WHvZRJRuO.webp",
+      "qty": 5,
+      "size": "Small",
+      "color": "Red",
+      "id": 34
+    }
+  ]
+}
